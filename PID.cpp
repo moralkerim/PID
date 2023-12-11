@@ -6,6 +6,8 @@ PID::PID(float _Kp, float _Ki, float _Kd, float _iMax, float _iMin, float _uMax,
 	this->Kd = _Kd;
 	this->iMax = _iMax;
 	this->iMin = _iMin;
+	this->uMax = _uMax;
+	this->uMin = _uMin;
 	this->f = _f;
 };
 
